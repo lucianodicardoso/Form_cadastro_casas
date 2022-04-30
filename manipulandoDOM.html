@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" class="css">
+</head>
+<body>
+    <div class="container-title">
+        <h1>CADASTRO DE CASAS</h1>
+    </div>
+    
+    <form>
+        <div class="top">
+            <p>
+                <label for="residence_Number">Número Residência: </label>
+                <input type="number" id="residence_Number" name="N_residencia"/>
+            </p>
+            <p>
+                <label for="district">Bairro: </label>
+                <input type="text" id="district" name="bairro"/>
+            </p>
+        </div>
+        <div class="bottom">
+            <p>
+                <label for="city">Cidade: </label>
+                <input type="text" id="city" name="cidade"/>
+            </p>
+    
+            <p>
+                <label for="home_area">Área da casa: </label>
+                <input type="number" id="home_area" name="area_casa"/>
+            </p>
+        </div>
+        <div class="button-saved">
+            <button class="button-b"  type="button" onclick="addList()">Salvar</button>
+        </div>
+        
+    </form>
+    <br/>
+    <div class="lista-sub">
+        <h3>LISTA DE CASA CADASTRADAS</h3>
+    </div>
+    <div id="house-list"></div>
+    <script src="manipulandoDOM copy.js"></script>
+</body>
+</html>

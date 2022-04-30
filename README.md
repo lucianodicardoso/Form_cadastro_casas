@@ -1,0 +1,1 @@
+Este é um exercício para manipular DOM, é um pequeno formulário de cadastro de casas. Inserimos os dados e esses dados são impressos na tela, com a opção de remover.
